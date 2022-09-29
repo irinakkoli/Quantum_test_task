@@ -1,0 +1,22 @@
+Given task - > to predict target column values as accurate as possible, based on the anonymized features (linear regression problem)
+
+dependent variable - target (the goal is to see how it will change in response to independent variable value)
+independent variable - anonymized features
+
+Data Requirements:
+
+1) clearness - no unknown values (NaN), no missing values, proper data type (in our case, float)
+2) continuous character required for the variables (condition met)
+
+
+
+Linear Regression Assumptions:
+
+1) linear relationship between variables - linearity test, scatter plot
+2) independence of observations (Durbin-Watson test, value around 2)
+3) homoscedasticity of the residuals (random distribution) - homogeneity of variance
+4) no significant outliers (box whisker plot)
+5) normal distribution of the residuals (normality test -> Shapiro Wilk >0.05)
+
+ANOVA test for telling how well model fits into data (p value >0.05)
+R2 how well independent variable explains dependent one
